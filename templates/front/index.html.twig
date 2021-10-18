@@ -12,6 +12,7 @@
     {% block stylesheets %}
     <!-- Bootstrap -->
     <link href="{{ asset('web/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('web/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('web/css/custum.css') }}" rel="stylesheet">
     <link href="{{ asset('web/css/styles.css') }}" rel="stylesheet">
     {% endblock %}
@@ -25,9 +26,9 @@
 <header class="navigation">
 	
 	<nav class="navbar navbar-expand-lg  " id="navbar" >
-		<div class="container">
+		<div class="container" style="max-width: 1320px;">
 		  <a class="navbar-brand" href="">
-		  	Mega<span>kit.</span>
+		  	<img src="../web/img/logo-xs.png" style="width:30px;;height:35px;margin-right:10px;" /> <span style="color:#370274;">NovHotel</span>
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,9 +41,10 @@
 				<a class="nav-link size-space" href="">Besoin d'aide?</a>
 			  </li>
 			   <li class="nav-item size-space"><a class="nav-link" href="">Nos chambres</a></li>
-			   <li class="nav-item size-space"><a class="nav-link" href="">FR / EN</a></li>
+			   <li class="nav-item size-space"><a class="nav-link" href="">FR | EN</a></li>
 			   
 			   <li class="nav-item"><a class="nav-link" href="">Se connecter</a></li>
+         <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-align-justify" style="margin-left:15px;font-size:20px;margin-top:4px;"></i></a></li>
 			</ul>
 
 	
@@ -121,9 +123,8 @@
 </section>
 
 
-  <div class="">
   <div class="col-md-12">
-  <div style="margin-left:140px;margin-right:140px;margin-top:60px;margin-bottom:80px;">
+  <div style="margin-left:140px;margin-right:140px;margin-top:60px;font-size:18px;">
 
   <div class="row">
 
@@ -160,24 +161,60 @@
   </div>
   </div>
   </div>
-<div style="padding:10px;margin-top:50px;">
-  <div class="row">
-         <div class="col-md-4">
-			<div class="size-border" style="position:relative;border-radius:10px;margin-bottom:10px;">
-					<span class="btn btn-success btn-sm" style="position:absolute;top:10px;left:10px;background-color:#8ac501;border:1px solid transparent;"><i class="fa fa-home"></i></span>
-					<img src="../web/img/img_2.png" style="width:100%;height:170px;">
-				  
-                        <div class="" style="padding:20px;">
-                                <div style="margin-bottom:-13px;color:grey;"><span>ASSINIE, Ivory Cost</span><span style="margin-left:80px;color:#004D8A;">Luxury Villa</span></div>
-                        </div>	
-			       
-                </div>
+<div style="padding:10px;margin-top:50px;margin-bottom:230px;">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="size-border" style="position:relative;border-radius:10px;">
+                  <span class="btn btn-success btn-sm" style="position:absolute;top:10px;left:10px;background-color:#8ac501;border:1px solid transparent;"><i class="fa fa-home"></i></span>
+                  <img src="../web/img/img_2.png" style="width:100%;height:170px;">
+                  
+                                <div class="" style="padding:20px;">
+                                        <div style="color:#c4c4c4;margin-top:-10px;"><span><i class="fa fa-map-marker"></i> ASSINIE, Ivory Cost</span><span style="margin-left:35px;color:#004D8A;">Luxury Villa</span></div>
+                                        <div style="margin-top:0px;"><span style="font-size:40px;font-weight:bold;">250000</span><span style="margin-left:15px;color:#c4c4c4;"><span style="color:black;font-size:12px;font-weight:bold;margin-bottom:30px;">Fcfa</span><span style="font-size:12px;">/ nuitée en semaine</span></span></div>
+                                        <div style="font-size:30px;">NovHotel Royal Suite</div>
+                                            <div>
+                                                  <ul style="list-style-type:none;margin-left:-40px;">
+                                                    <li style="margin-top:11px;"><i class="fa fa-user" style="margin-right:15px;"></i> 12 personnes</li>
+                                                    <li style="margin-top:11px;"><i class="fa fa-hotel" style="margin-right:15px;"></i> 6 chambres</li>
+                                                    <li style="margin-top:11px;"><i class="fa fa-tty" style="margin-right:15px;"></i> 6 salles de bain</li>
+                                                    <li style="margin-top:11px;"><i class="fa fa-square-o" style="margin-right:15px;"></i> 800 m2</li>
+                                                  </ul>
+                                            </div>
+                                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+
 
   </div>
-</div>
-</div>
   </div>
-  </div>
+  <div class="row">
+      <div class="col-md-12">
+          <div style="color:white;border:1px solid grey;padding-top:140px;padding-bottom:100px;padding-left:100px;padding-right:100px;background-color:#370274;">
+              <div class="row">
+                  <div class="col-md-7">
+                  <div class="border:1px solid white;">
+                  <ul style="list-style-type:none;margin-left:-40px;">
+                      <li><img src="../web/img/logo.png" style="width:100px;height:140px;margin-left:19px;" /><li>
+                      <li><span style="font-size:35px;">NovHotel</span></li>
+                  </ul>
+                  </div>
+                  </div>
+                  <div class="col-md-5">
+                  <div style="">
+                      <form>
+                      <label style="font-size:35px;font-weight:bold;margin-bottom:40px;" for="email">Souscrivez à notre Newsletter</label>
+                      <div class="input-group">
+                              <input type="text" class="form-control-lg" placeholder="" id="email" style="border:0px solid transparent;">
+                              <div class="input-group-append"><span class="input-group-text size-souscrire" style="">Souscrire</span></div>
+                         </div>
+                      </form>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 
   </div>

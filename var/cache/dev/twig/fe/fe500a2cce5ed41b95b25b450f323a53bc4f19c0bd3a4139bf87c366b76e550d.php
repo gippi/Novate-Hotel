@@ -59,7 +59,7 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
     ";
         // line 12
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 18
+        // line 19
         echo "  </head>
 
   <body>
@@ -70,9 +70,9 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 <header class=\"navigation\">
 \t
 \t<nav class=\"navbar navbar-expand-lg  \" id=\"navbar\" >
-\t\t<div class=\"container\">
+\t\t<div class=\"container\" style=\"max-width: 1320px;\">
 \t\t  <a class=\"navbar-brand\" href=\"\">
-\t\t  \tMega<span>kit.</span>
+\t\t  \t<img src=\"../web/img/logo-xs.png\" style=\"width:30px;;height:35px;margin-right:10px;\" /> <span style=\"color:#370274;\">NovHotel</span>
 \t\t  </a>
 
 \t\t  <button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExample09\" aria-controls=\"navbarsExample09\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
@@ -85,9 +85,10 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 \t\t\t\t<a class=\"nav-link size-space\" href=\"\">Besoin d'aide?</a>
 \t\t\t  </li>
 \t\t\t   <li class=\"nav-item size-space\"><a class=\"nav-link\" href=\"\">Nos chambres</a></li>
-\t\t\t   <li class=\"nav-item size-space\"><a class=\"nav-link\" href=\"\">FR / EN</a></li>
+\t\t\t   <li class=\"nav-item size-space\"><a class=\"nav-link\" href=\"\">FR | EN</a></li>
 \t\t\t   
 \t\t\t   <li class=\"nav-item\"><a class=\"nav-link\" href=\"\">Se connecter</a></li>
+         <li class=\"nav-item\"><a class=\"nav-link\" href=\"\"><i class=\"fa fa-align-justify\" style=\"margin-left:15px;font-size:20px;margin-top:4px;\"></i></a></li>
 \t\t\t</ul>
 
 \t
@@ -166,9 +167,8 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 </section>
 
 
-  <div class=\"\">
   <div class=\"col-md-12\">
-  <div style=\"margin-left:140px;margin-right:140px;margin-top:60px;margin-bottom:80px;\">
+  <div style=\"margin-left:140px;margin-right:140px;margin-top:60px;font-size:18px;\">
 
   <div class=\"row\">
 
@@ -205,24 +205,60 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
   </div>
   </div>
   </div>
-<div style=\"padding:10px;margin-top:50px;\">
-  <div class=\"row\">
-         <div class=\"col-md-4\">
-\t\t\t<div class=\"size-border\" style=\"position:relative;border-radius:10px;margin-bottom:10px;\">
-\t\t\t\t\t<span class=\"btn btn-success btn-sm\" style=\"position:absolute;top:10px;left:10px;background-color:#8ac501;border:1px solid transparent;\"><i class=\"fa fa-home\"></i></span>
-\t\t\t\t\t<img src=\"../web/img/img_2.png\" style=\"width:100%;height:170px;\">
-\t\t\t\t  
-                        <div class=\"\" style=\"padding:20px;\">
-                                <div style=\"margin-bottom:-13px;color:grey;\"><span>ASSINIE, Ivory Cost</span><span style=\"margin-left:80px;color:#004D8A;\">Luxury Villa</span></div>
-                        </div>\t
-\t\t\t       
-                </div>
+<div style=\"padding:10px;margin-top:50px;margin-bottom:230px;\">
+      <div class=\"row\">
+          <div class=\"col-md-4\">
+              <div class=\"size-border\" style=\"position:relative;border-radius:10px;\">
+                  <span class=\"btn btn-success btn-sm\" style=\"position:absolute;top:10px;left:10px;background-color:#8ac501;border:1px solid transparent;\"><i class=\"fa fa-home\"></i></span>
+                  <img src=\"../web/img/img_2.png\" style=\"width:100%;height:170px;\">
+                  
+                                <div class=\"\" style=\"padding:20px;\">
+                                        <div style=\"color:#c4c4c4;margin-top:-10px;\"><span><i class=\"fa fa-map-marker\"></i> ASSINIE, Ivory Cost</span><span style=\"margin-left:35px;color:#004D8A;\">Luxury Villa</span></div>
+                                        <div style=\"margin-top:0px;\"><span style=\"font-size:40px;font-weight:bold;\">250000</span><span style=\"margin-left:15px;color:#c4c4c4;\"><span style=\"color:black;font-size:12px;font-weight:bold;margin-bottom:30px;\">Fcfa</span><span style=\"font-size:12px;\">/ nuitée en semaine</span></span></div>
+                                        <div style=\"font-size:30px;\">NovHotel Royal Suite</div>
+                                            <div>
+                                                  <ul style=\"list-style-type:none;margin-left:-40px;\">
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-user\" style=\"margin-right:15px;\"></i> 12 personnes</li>
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-hotel\" style=\"margin-right:15px;\"></i> 6 chambres</li>
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-tty\" style=\"margin-right:15px;\"></i> 6 salles de bain</li>
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-square-o\" style=\"margin-right:15px;\"></i> 800 m2</li>
+                                                  </ul>
+                                            </div>
+                                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+
 
   </div>
-</div>
-</div>
   </div>
-  </div>
+  <div class=\"row\">
+      <div class=\"col-md-12\">
+          <div style=\"color:white;border:1px solid grey;padding-top:140px;padding-bottom:100px;padding-left:100px;padding-right:100px;background-color:#370274;\">
+              <div class=\"row\">
+                  <div class=\"col-md-7\">
+                  <div class=\"border:1px solid white;\">
+                  <ul style=\"list-style-type:none;margin-left:-40px;\">
+                      <li><img src=\"../web/img/logo.png\" style=\"width:100px;height:140px;margin-left:19px;\" /><li>
+                      <li><span style=\"font-size:35px;\">NovHotel</span></li>
+                  </ul>
+                  </div>
+                  </div>
+                  <div class=\"col-md-5\">
+                  <div style=\"\">
+                      <form>
+                      <label style=\"font-size:35px;font-weight:bold;margin-bottom:40px;\" for=\"email\">Souscrivez à notre Newsletter</label>
+                      <div class=\"input-group\">
+                              <input type=\"text\" class=\"form-control-lg\" placeholder=\"\" id=\"email\" style=\"border:0px solid transparent;\">
+                              <div class=\"input-group-append\"><span class=\"input-group-text size-souscrire\" style=\"\">Souscrire</span></div>
+                         </div>
+                      </form>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 
   </div>
@@ -274,10 +310,14 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
         echo "\" rel=\"stylesheet\">
     <link href=\"";
         // line 15
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("web/css/custum.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("web/css/font-awesome.min.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
     <link href=\"";
         // line 16
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("web/css/custum.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+    <link href=\"";
+        // line 17
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("web/css/styles.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
     ";
@@ -296,7 +336,7 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 
     public function getDebugInfo()
     {
-        return array (  281 => 16,  277 => 15,  273 => 14,  270 => 13,  260 => 12,  241 => 11,  63 => 18,  61 => 12,  57 => 11,  45 => 1,);
+        return array (  321 => 17,  317 => 16,  313 => 15,  309 => 14,  306 => 13,  296 => 12,  277 => 11,  63 => 19,  61 => 12,  57 => 11,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -315,6 +355,7 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
     {% block stylesheets %}
     <!-- Bootstrap -->
     <link href=\"{{ asset('web/css/bootstrap.min.css') }}\" rel=\"stylesheet\">
+    <link href=\"{{ asset('web/css/font-awesome.min.css') }}\" rel=\"stylesheet\">
     <link href=\"{{ asset('web/css/custum.css') }}\" rel=\"stylesheet\">
     <link href=\"{{ asset('web/css/styles.css') }}\" rel=\"stylesheet\">
     {% endblock %}
@@ -328,9 +369,9 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 <header class=\"navigation\">
 \t
 \t<nav class=\"navbar navbar-expand-lg  \" id=\"navbar\" >
-\t\t<div class=\"container\">
+\t\t<div class=\"container\" style=\"max-width: 1320px;\">
 \t\t  <a class=\"navbar-brand\" href=\"\">
-\t\t  \tMega<span>kit.</span>
+\t\t  \t<img src=\"../web/img/logo-xs.png\" style=\"width:30px;;height:35px;margin-right:10px;\" /> <span style=\"color:#370274;\">NovHotel</span>
 \t\t  </a>
 
 \t\t  <button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExample09\" aria-controls=\"navbarsExample09\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
@@ -343,9 +384,10 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 \t\t\t\t<a class=\"nav-link size-space\" href=\"\">Besoin d'aide?</a>
 \t\t\t  </li>
 \t\t\t   <li class=\"nav-item size-space\"><a class=\"nav-link\" href=\"\">Nos chambres</a></li>
-\t\t\t   <li class=\"nav-item size-space\"><a class=\"nav-link\" href=\"\">FR / EN</a></li>
+\t\t\t   <li class=\"nav-item size-space\"><a class=\"nav-link\" href=\"\">FR | EN</a></li>
 \t\t\t   
 \t\t\t   <li class=\"nav-item\"><a class=\"nav-link\" href=\"\">Se connecter</a></li>
+         <li class=\"nav-item\"><a class=\"nav-link\" href=\"\"><i class=\"fa fa-align-justify\" style=\"margin-left:15px;font-size:20px;margin-top:4px;\"></i></a></li>
 \t\t\t</ul>
 
 \t
@@ -424,9 +466,8 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
 </section>
 
 
-  <div class=\"\">
   <div class=\"col-md-12\">
-  <div style=\"margin-left:140px;margin-right:140px;margin-top:60px;margin-bottom:80px;\">
+  <div style=\"margin-left:140px;margin-right:140px;margin-top:60px;font-size:18px;\">
 
   <div class=\"row\">
 
@@ -463,29 +504,65 @@ class __TwigTemplate_a7a5096f841188a5cb25cdfe5f4c43165a390c11f48004c52c92f30b71c
   </div>
   </div>
   </div>
-<div style=\"padding:10px;margin-top:50px;\">
-  <div class=\"row\">
-         <div class=\"col-md-4\">
-\t\t\t<div class=\"size-border\" style=\"position:relative;border-radius:10px;margin-bottom:10px;\">
-\t\t\t\t\t<span class=\"btn btn-success btn-sm\" style=\"position:absolute;top:10px;left:10px;background-color:#8ac501;border:1px solid transparent;\"><i class=\"fa fa-home\"></i></span>
-\t\t\t\t\t<img src=\"../web/img/img_2.png\" style=\"width:100%;height:170px;\">
-\t\t\t\t  
-                        <div class=\"\" style=\"padding:20px;\">
-                                <div style=\"margin-bottom:-13px;color:grey;\"><span>ASSINIE, Ivory Cost</span><span style=\"margin-left:80px;color:#004D8A;\">Luxury Villa</span></div>
-                        </div>\t
-\t\t\t       
-                </div>
+<div style=\"padding:10px;margin-top:50px;margin-bottom:230px;\">
+      <div class=\"row\">
+          <div class=\"col-md-4\">
+              <div class=\"size-border\" style=\"position:relative;border-radius:10px;\">
+                  <span class=\"btn btn-success btn-sm\" style=\"position:absolute;top:10px;left:10px;background-color:#8ac501;border:1px solid transparent;\"><i class=\"fa fa-home\"></i></span>
+                  <img src=\"../web/img/img_2.png\" style=\"width:100%;height:170px;\">
+                  
+                                <div class=\"\" style=\"padding:20px;\">
+                                        <div style=\"color:#c4c4c4;margin-top:-10px;\"><span><i class=\"fa fa-map-marker\"></i> ASSINIE, Ivory Cost</span><span style=\"margin-left:35px;color:#004D8A;\">Luxury Villa</span></div>
+                                        <div style=\"margin-top:0px;\"><span style=\"font-size:40px;font-weight:bold;\">250000</span><span style=\"margin-left:15px;color:#c4c4c4;\"><span style=\"color:black;font-size:12px;font-weight:bold;margin-bottom:30px;\">Fcfa</span><span style=\"font-size:12px;\">/ nuitée en semaine</span></span></div>
+                                        <div style=\"font-size:30px;\">NovHotel Royal Suite</div>
+                                            <div>
+                                                  <ul style=\"list-style-type:none;margin-left:-40px;\">
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-user\" style=\"margin-right:15px;\"></i> 12 personnes</li>
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-hotel\" style=\"margin-right:15px;\"></i> 6 chambres</li>
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-tty\" style=\"margin-right:15px;\"></i> 6 salles de bain</li>
+                                                    <li style=\"margin-top:11px;\"><i class=\"fa fa-square-o\" style=\"margin-right:15px;\"></i> 800 m2</li>
+                                                  </ul>
+                                            </div>
+                                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+
 
   </div>
-</div>
-</div>
   </div>
-  </div>
+  <div class=\"row\">
+      <div class=\"col-md-12\">
+          <div style=\"color:white;border:1px solid grey;padding-top:140px;padding-bottom:100px;padding-left:100px;padding-right:100px;background-color:#370274;\">
+              <div class=\"row\">
+                  <div class=\"col-md-7\">
+                  <div class=\"border:1px solid white;\">
+                  <ul style=\"list-style-type:none;margin-left:-40px;\">
+                      <li><img src=\"../web/img/logo.png\" style=\"width:100px;height:140px;margin-left:19px;\" /><li>
+                      <li><span style=\"font-size:35px;\">NovHotel</span></li>
+                  </ul>
+                  </div>
+                  </div>
+                  <div class=\"col-md-5\">
+                  <div style=\"\">
+                      <form>
+                      <label style=\"font-size:35px;font-weight:bold;margin-bottom:40px;\" for=\"email\">Souscrivez à notre Newsletter</label>
+                      <div class=\"input-group\">
+                              <input type=\"text\" class=\"form-control-lg\" placeholder=\"\" id=\"email\" style=\"border:0px solid transparent;\">
+                              <div class=\"input-group-append\"><span class=\"input-group-text size-souscrire\" style=\"\">Souscrire</span></div>
+                         </div>
+                      </form>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 
   </div>
    </body>
 </html>
-  ", "front/index.html.twig", "/Users/angendri/Sites/Flackbook/templates/front/index.html.twig");
+  ", "front/index.html.twig", "/Users/angendri/Sites/Novate-Hotel/templates/front/index.html.twig");
     }
 }

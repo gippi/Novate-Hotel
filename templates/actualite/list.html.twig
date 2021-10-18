@@ -1,0 +1,44 @@
+{% extends "base.html.twig" %}
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+{% block content_wrapper %}
+    
+    <!-- page content -->
+        <div class="right_col" role="main">
+          <!-- top tiles -->
+          <div class="row">
+          
+          <div class="col-md-3">
+          <div style="padding:10px;background-color:white;">
+          <span>Espace libre</span>
+          </div>
+          </div>
+<div class="col-md-9">
+    <div style="background-color:white;padding:10px;">
+          <div class="row">
+                    {% for actualite in actualites %}
+                    {{dump(actualite.imgDoc)}}
+                        <div class="col-md-4">
+                          <div>
+                          <img src="{{ vich_uploader_asset(actualite.imgDoc, 'file', 'App\\Entity\\FileImgManager') }}" class="img-responsive" style="width:100%;height:100px;">
+                            <div style="border:1px solid grey;padding:10px;margin-bottom:10px;font-size:11px;">
+                                <span>{{ actualite.titre }}</span>
+                            </div>
+                          </div>
+                            <button  class="btn btn-warning btn-xs" style="font-size:9px;margin-bottom:10px;" type="button">modification</button>
+                            <button  class="btn btn-danger btn-xs" style="font-size:9px;margin-bottom:10px;" type="button">suppression</button>
+                            
+                      
+                        </div>
+                        {% endfor %}
+                    </div>
+    </div>
+</div>
+          </div>
+          </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    
+{% endblock %}

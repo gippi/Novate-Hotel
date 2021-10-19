@@ -282,6 +282,6 @@ class __TwigTemplate_cbb0ffd8d9c8554b94722caf576d4b4185fd5829e5a268809d1e305c95d
             </div>
             <!-- /menu footer buttons -->
           </div>
-        </div>", "admin/main-sidebar.html.twig", "/Users/angendri/Sites/Flackbook/templates/admin/main-sidebar.html.twig");
+        </div>", "admin/main-sidebar.html.twig", "/Users/angendri/Sites/Novate-Hotel/templates/admin/main-sidebar.html.twig");
     }
 }

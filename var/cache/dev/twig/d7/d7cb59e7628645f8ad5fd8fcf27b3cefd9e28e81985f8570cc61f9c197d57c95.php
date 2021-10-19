@@ -67,6 +67,6 @@ class __TwigTemplate_e26666f74067d483ba4ffc6f8c8a848077f5dff5f819cb88098abafbc98
         return new Source("<?php echo \$view['form']->start(\$form) ?>
     <?php echo \$view['form']->widget(\$form) ?>
 <?php echo \$view['form']->end(\$form) ?>
-", "@Framework/Form/form.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form.html.php");
+", "@Framework/Form/form.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form.html.php");
     }
 }

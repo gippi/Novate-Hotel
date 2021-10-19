@@ -63,6 +63,6 @@ class __TwigTemplate_77f08f73975e1579cbae8a325cd271a818a05052da3a8b1fd041653ac5d
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'range']);
-", "@Framework/Form/range_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/range_widget.html.php");
+", "@Framework/Form/range_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/range_widget.html.php");
     }
 }

@@ -63,6 +63,6 @@ class __TwigTemplate_d32feeabd8743c3240292f461cdd82fb62bb773885804e89ec040f043bf
     public function getSourceContext()
     {
         return new Source("<input type=\"<?php echo isset(\$type) ? \$view->escape(\$type) : 'text' ?>\" <?php echo \$view['form']->block(\$form, 'widget_attributes') ?><?php if (!empty(\$value) || is_numeric(\$value)): ?> value=\"<?php echo \$view->escape(\$value) ?>\"<?php endif ?> />
-", "@Framework/Form/form_widget_simple.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form_widget_simple.html.php");
+", "@Framework/Form/form_widget_simple.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form_widget_simple.html.php");
     }
 }

@@ -75,6 +75,6 @@ class __TwigTemplate_05e25a240900f6f7e69167dbe5a72cf7a3e132e0f810485ca6d5fb5555b
     <?php echo \$view['form']->widget(\$form, \$widgetAttr); ?>
     <?php echo \$view['form']->help(\$form); ?>
 </div>
-", "@Framework/Form/form_row.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form_row.html.php");
+", "@Framework/Form/form_row.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form_row.html.php");
     }
 }

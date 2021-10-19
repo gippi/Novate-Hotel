@@ -63,6 +63,6 @@ class __TwigTemplate_ea9af63395e4ed36a2edc4515c9d965a7fc9fc39ada8305f631538df48b
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'email']) ?>
-", "@Framework/Form/email_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/email_widget.html.php");
+", "@Framework/Form/email_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/email_widget.html.php");
     }
 }

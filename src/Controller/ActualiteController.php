@@ -19,7 +19,7 @@ class ActualiteController extends AbstractController
     {
         $actualite = $this->getDoctrine()->getRepository(Actualite::class)->findAll();
 
-        return $this->render('actualites/index.html.twig', [
+        return $this->render('admin/index.html.twig', [
             'actualite' => $actualite,
         ]);
     }
@@ -60,7 +60,6 @@ class ActualiteController extends AbstractController
      * @Route("/actualite/modifier/{id}", name="modif_actualite")
      */
     public function modifActualite(){
-        $this->denyAccessUnlessGranted('ROLE_ADMIN');
-        // Ici il faut être admin
+        
     }
 }

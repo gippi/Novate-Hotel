@@ -77,6 +77,6 @@ class __TwigTemplate_3b1855291fcad7fc6962549f2f5dd4a3997921c9948e4b32f635ddc83f6
 <?php printf('%s=\"%s\" ', \$view->escape(\$k), \$view->escape(\$v)) ?>
 <?php endif ?>
 <?php endforeach ?>
-", "@Framework/Form/choice_attributes.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/choice_attributes.html.php");
+", "@Framework/Form/choice_attributes.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/choice_attributes.html.php");
     }
 }

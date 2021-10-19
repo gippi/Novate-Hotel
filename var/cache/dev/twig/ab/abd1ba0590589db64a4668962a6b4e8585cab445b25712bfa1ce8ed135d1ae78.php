@@ -168,6 +168,6 @@ class __TwigTemplate_727fbe353f58c9e3db30000515e3d0ef1b53aff370580a70b3cbaf68161
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
     }
 }

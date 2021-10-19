@@ -236,6 +236,6 @@ class __TwigTemplate_6a24ce36489688df64cd53ce340773f11e225b18ae245b1e015e7d6d79f
     {{ parent() }}
     
 {% endblock %}
-", "actualite/list.html.twig", "/Users/angendri/Sites/Flackbook/templates/actualite/list.html.twig");
+", "actualite/list.html.twig", "/Users/angendri/Sites/Novate-Hotel/templates/actualite/list.html.twig");
     }
 }

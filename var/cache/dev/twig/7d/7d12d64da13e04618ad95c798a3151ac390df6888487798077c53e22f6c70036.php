@@ -71,6 +71,6 @@ class __TwigTemplate_1b11899f5af7679501dae8d9605e69eb0ba6b324ded113f701a60ade1a7
     <?php if (strlen(\$value) > 0): ?> value=\"<?php echo \$view->escape(\$value) ?>\"<?php endif ?>
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/checkbox_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/checkbox_widget.html.php");
+", "@Framework/Form/checkbox_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/checkbox_widget.html.php");
     }
 }

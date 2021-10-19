@@ -65,6 +65,6 @@ class __TwigTemplate_f759e76f25768356a420cd0273668640dcdff2d1f49b93d0b4bd150117c
     {
         return new Source("<?php \$symbol = false !== \$symbol ? (\$symbol ? ' '.\$symbol : ' %') : '' ?>
 <?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'text']).\$view->escape(\$symbol) ?>
-", "@Framework/Form/percent_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/percent_widget.html.php");
+", "@Framework/Form/percent_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/percent_widget.html.php");
     }
 }

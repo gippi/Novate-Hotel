@@ -18,7 +18,7 @@ class ApiController extends Controller
     /**
      * Ajout d'une actualite
      * 
-     * @Route("/zctualite/ajout", name="ajout", methods={"POST"})
+     * @Route("/actualite/ajout", name="ajout", methods={"POST"})
      */
     public function addActualite(Request $request){
         // On vérifie si on a une requête XMLHttpRequest

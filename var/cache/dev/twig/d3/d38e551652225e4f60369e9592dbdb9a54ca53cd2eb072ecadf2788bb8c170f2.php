@@ -189,6 +189,6 @@ class __TwigTemplate_03a472d21378e458a311699c21822c2ad38c74d63ebbcf92be91a54ec11
 .timeline-graph .timeline-period {
     stroke-width: 0;
 }
-", "@WebProfiler/Collector/time.css.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.css.twig");
+", "@WebProfiler/Collector/time.css.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.css.twig");
     }
 }

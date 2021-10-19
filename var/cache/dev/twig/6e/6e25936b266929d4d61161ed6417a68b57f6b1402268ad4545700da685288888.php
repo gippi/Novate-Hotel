@@ -73,6 +73,6 @@ class __TwigTemplate_d072ff3735fdb0c8e55b0c52d681e1e8d3e15ef26ad3822bf816ee31aa9
     {
         return new Source("{% deprecated 'The template \"' ~ _self ~'\" is deprecated since Symfony 4.4, will be removed in 5.0.' %}
 {{ { 'error': { 'code': status_code, 'message': status_text } }|json_encode|raw }}
-", "@Twig/Exception/error.json.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bundle/Resources/views/Exception/error.json.twig");
+", "@Twig/Exception/error.json.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bundle/Resources/views/Exception/error.json.twig");
     }
 }

@@ -99,6 +99,6 @@ class __TwigTemplate_82dadc165bc90d6bec6814facfc391a65374d3d083b241eeefd9cb675e0
             </trace>
 {% endfor %}
         </traces>
-", "@Twig/Exception/traces.xml.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
+", "@Twig/Exception/traces.xml.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
     }
 }

@@ -199,6 +199,6 @@ Exception stack trace attached.
 {{ exception }}
 {% endif %}
 {% endblock %}
-", "@email/zurb_2/notification/body.txt.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/body.txt.twig");
+", "@email/zurb_2/notification/body.txt.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/body.txt.twig");
     }
 }

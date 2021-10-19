@@ -63,6 +63,6 @@ class __TwigTemplate_076a5d078e1962442c20f72e253a76c5d46f16bf2246a27abea3d974356
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'password']) ?>
-", "@Framework/Form/password_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/password_widget.html.php");
+", "@Framework/Form/password_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/password_widget.html.php");
     }
 }

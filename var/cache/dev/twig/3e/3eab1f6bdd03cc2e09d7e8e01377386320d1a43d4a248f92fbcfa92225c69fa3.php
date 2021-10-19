@@ -69,6 +69,6 @@ class __TwigTemplate_efc7f8191f98e74fd6217533185342344cc8be25f9264c806eadbe13784
 <?php echo \$view['form']->rest(\$form) ?>
 <?php endif ?>
 </form>
-", "@Framework/Form/form_end.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form_end.html.php");
+", "@Framework/Form/form_end.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form_end.html.php");
     }
 }

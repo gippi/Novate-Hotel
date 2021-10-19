@@ -112,6 +112,6 @@ class __TwigTemplate_9c2a21c6820b474316239358b010884aa63d3dabba9ddef41fcd382d52c
     </exception>
 {% endfor %}
 </error>
-", "@Twig/Exception/exception.xml.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bundle/Resources/views/Exception/exception.xml.twig");
+", "@Twig/Exception/exception.xml.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bundle/Resources/views/Exception/exception.xml.twig");
     }
 }

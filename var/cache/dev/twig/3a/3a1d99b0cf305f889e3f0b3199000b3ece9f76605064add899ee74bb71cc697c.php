@@ -125,6 +125,6 @@ class __TwigTemplate_0242fe114279ce3f41dd3c5f1d5f969d580e9ce8fd89cc5417c09d4e8eb
 .exception-message-wrapper .container {
     min-height: unset;
 }
-", "@WebProfiler/Collector/exception.css.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.css.twig");
+", "@WebProfiler/Collector/exception.css.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.css.twig");
     }
 }

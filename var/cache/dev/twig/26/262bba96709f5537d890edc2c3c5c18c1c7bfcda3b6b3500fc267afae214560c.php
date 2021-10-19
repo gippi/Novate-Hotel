@@ -1671,6 +1671,6 @@ class __TwigTemplate_9de8dc49a5c671755a7acbf09de2ee4b3f541b5e312b693a6d7b5bc364a
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/Users/angendri/Sites/Flackbook/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

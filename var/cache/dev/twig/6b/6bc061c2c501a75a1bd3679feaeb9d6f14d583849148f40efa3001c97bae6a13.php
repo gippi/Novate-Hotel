@@ -63,6 +63,6 @@ class __TwigTemplate_7aa04ae24325379a974157e94baca39303d50c3aad631671e5b468aabc8
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'number']) ?>
-", "@Framework/Form/integer_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/integer_widget.html.php");
+", "@Framework/Form/integer_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/integer_widget.html.php");
     }
 }

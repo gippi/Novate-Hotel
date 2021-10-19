@@ -71,6 +71,6 @@ class __TwigTemplate_3e1fd2dcec5a5d6eea64c0fe704dbe7920055b273f85ee51ec9c1c927bf
         <?php echo \$view['form']->widget(\$form); ?>
     </td>
 </tr>
-", "@Framework/FormTable/hidden_row.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/FormTable/hidden_row.html.php");
+", "@Framework/FormTable/hidden_row.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/FormTable/hidden_row.html.php");
     }
 }

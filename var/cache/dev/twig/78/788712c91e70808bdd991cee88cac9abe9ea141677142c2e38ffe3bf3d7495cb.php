@@ -75,6 +75,6 @@ class __TwigTemplate_b50b820716aece2dfdbe0fba8d5d976baac6923d1e75b86b8ffb0049d8c
     <?php echo \$view['form']->block(\$form, 'form_rows') ?>
     <?php echo \$view['form']->rest(\$form) ?>
 </div>
-", "@Framework/Form/form_widget_compound.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form_widget_compound.html.php");
+", "@Framework/Form/form_widget_compound.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form_widget_compound.html.php");
     }
 }

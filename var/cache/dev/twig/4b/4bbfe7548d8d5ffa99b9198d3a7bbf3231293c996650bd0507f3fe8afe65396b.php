@@ -71,6 +71,6 @@ class __TwigTemplate_c50e79c73287a1f14ddc81d45b36f88e3e669845f409c7826b7996a36cb
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.html.twig\" %}
-", "@email/default/notification/body.html.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
+", "@email/default/notification/body.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
     }
 }

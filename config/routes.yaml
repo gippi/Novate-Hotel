@@ -6,9 +6,13 @@
 #    path:     /new
 #    defaults: { _controller: NormeBundle:DossierNorme:new }
 
-admin_page:
+front_page:
     path: /
-    controller: App\Controller\CoreController::indexNovate
+    controller: App\Controller\FrontController::index
+
+front_actualite_chambre:
+    path: /chambres
+    controller: App\Controller\FrontController::voirChambre
 
 admin_actualite_new:
     path: /new
@@ -17,4 +21,6 @@ admin_actualite_new:
 admin_actualite_list:
     path: /list
     controller: App\Controller\ActualiteController::listActualite
+
+
     

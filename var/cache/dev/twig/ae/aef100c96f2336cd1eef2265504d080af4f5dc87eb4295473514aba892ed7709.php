@@ -486,6 +486,6 @@ header .container { display: flex; justify-content: space-between; }
     .hidden-xs-down { display: initial; }
     .help-link { margin-left: 30px; }
 }
-", "@Twig/exception.css.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bundle/Resources/views/exception.css.twig");
+", "@Twig/exception.css.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bundle/Resources/views/exception.css.twig");
     }
 }

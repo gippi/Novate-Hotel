@@ -75,6 +75,6 @@ class __TwigTemplate_92f3f89d5fc0539f264ac43d0a38075aa4e3e77f2d65fa0ed59870c1ea5
         <?php echo \$view['form']->widget(\$form['date']).' '.\$view['form']->widget(\$form['time']) ?>
     </div>
 <?php endif ?>
-", "@Framework/Form/datetime_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/datetime_widget.html.php");
+", "@Framework/Form/datetime_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/datetime_widget.html.php");
     }
 }

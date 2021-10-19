@@ -63,6 +63,6 @@ class __TwigTemplate_f572a9e98ad77865f6a2c4bad3a801cc98eefbc6d9193c064c4e12f615b
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'button_widget', ['type' => \$type ?? 'reset']) ?>
-", "@Framework/Form/reset_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/reset_widget.html.php");
+", "@Framework/Form/reset_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/reset_widget.html.php");
     }
 }

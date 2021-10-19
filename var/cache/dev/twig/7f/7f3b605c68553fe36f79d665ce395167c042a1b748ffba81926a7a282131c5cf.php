@@ -71,6 +71,6 @@ class __TwigTemplate_5fff041e49a9447d6b38f12ff85b6fd496817c0a7b31c587fa2b503a81e
 <?php else: ?>
 <?php echo \$view['form']->block(\$form, 'form_widget_simple')?>
 <?php endif ?>
-", "@Framework/Form/form_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php");
+", "@Framework/Form/form_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php");
     }
 }

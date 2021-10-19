@@ -973,6 +973,6 @@ class Theme {
         return hash >>> 0;
     }
 }
-", "@WebProfiler/Collector/time.js", "/Users/angendri/Sites/Flackbook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.js");
+", "@WebProfiler/Collector/time.js", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.js");
     }
 }

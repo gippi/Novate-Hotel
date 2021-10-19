@@ -63,6 +63,6 @@ class __TwigTemplate_2d73619ba0088fe251d166e5537ce5270d1321f5d61f61f747ad7ffb046
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'color']);
-", "@Framework/Form/color_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/color_widget.html.php");
+", "@Framework/Form/color_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/color_widget.html.php");
     }
 }

@@ -698,6 +698,6 @@ class __TwigTemplate_976bf4c4e631b52504340089064deab4b6948c84a43ae420171c582fe17
         <td class=\"font-normal\">{{ migration.execution_time|default('n/a') }}</td>
     </tr>
 {% endmacro %}
-", "@DoctrineMigrations/Collector/migrations.html.twig", "/Users/angendri/Sites/Flackbook/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/migrations.html.twig");
+", "@DoctrineMigrations/Collector/migrations.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/migrations.html.twig");
     }
 }

@@ -71,6 +71,6 @@ class __TwigTemplate_ce5acb8038824c0108ef5dc9ee53455a49c32c3083d179b93586b596240
     value=\"<?php echo \$view->escape(\$value) ?>\"
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/radio_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/radio_widget.html.php");
+", "@Framework/Form/radio_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/radio_widget.html.php");
     }
 }

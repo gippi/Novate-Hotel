@@ -43,7 +43,7 @@ class __TwigTemplate_39f8ab21da3b92cb8de10b2c2120675557c4c1cc0a404a6ae59461952c8
         echo "<!-- footer content -->
         <footer>
           <div class=\"pull-right\">
-            Dashboard Gaming <a href=\"#\">V1.0</a>
+            Dashboard Novate <a href=\"#\">V1.0</a>
           </div>
           <div class=\"clearfix\"></div>
         </footer>
@@ -71,10 +71,10 @@ class __TwigTemplate_39f8ab21da3b92cb8de10b2c2120675557c4c1cc0a404a6ae59461952c8
         return new Source("<!-- footer content -->
         <footer>
           <div class=\"pull-right\">
-            Dashboard Gaming <a href=\"#\">V1.0</a>
+            Dashboard Novate <a href=\"#\">V1.0</a>
           </div>
           <div class=\"clearfix\"></div>
         </footer>
-        <!-- /footer content -->", "admin/footer.html.twig", "/Users/angendri/Sites/Flackbook/templates/admin/footer.html.twig");
+        <!-- /footer content -->", "admin/footer.html.twig", "/Users/angendri/Sites/Novate-Hotel/templates/admin/footer.html.twig");
     }
 }

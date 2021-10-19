@@ -63,6 +63,6 @@ class __TwigTemplate_a016393ed31a16b7b6077da163c482fb49a61cac8fedcb7962a3306979c
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->widget(\$form) ?>
-", "@Framework/Form/hidden_row.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/hidden_row.html.php");
+", "@Framework/Form/hidden_row.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/hidden_row.html.php");
     }
 }

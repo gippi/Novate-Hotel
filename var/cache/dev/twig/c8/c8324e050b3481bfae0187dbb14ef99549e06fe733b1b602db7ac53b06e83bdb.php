@@ -65,6 +65,6 @@ class __TwigTemplate_62b2d8bd4a77e721e3bf0b429d6a77d1a0fa5214d7221144329728cf962
     {
         return new Source("<?php if (!empty(\$id)): ?>id=\"<?php echo \$view->escape(\$id) ?>\"<?php endif ?>
 <?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>
-", "@Framework/Form/widget_container_attributes.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/widget_container_attributes.html.php");
+", "@Framework/Form/widget_container_attributes.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/widget_container_attributes.html.php");
     }
 }

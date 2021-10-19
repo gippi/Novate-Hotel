@@ -63,6 +63,6 @@ class __TwigTemplate_5ab32d6dc0bcffd19b2a1d9b389eceab29d66c9dc9d67c7fb6b5838e6ac
     public function getSourceContext()
     {
         return new Source("<textarea <?php echo \$view['form']->block(\$form, 'widget_attributes') ?>><?php echo \$view->escape(\$value) ?></textarea>
-", "@Framework/Form/textarea_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/textarea_widget.html.php");
+", "@Framework/Form/textarea_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/textarea_widget.html.php");
     }
 }

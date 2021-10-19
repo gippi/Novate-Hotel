@@ -99,6 +99,6 @@ class __TwigTemplate_5970e580eb16ce040be669402cbb15f9dce08f001e93222e4478f4feb21
 .container.body_default {
     border-top: 8px solid #aaaaaa;
 }
-", "@email/zurb_2/notification/local.css", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
+", "@email/zurb_2/notification/local.css", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
     }
 }

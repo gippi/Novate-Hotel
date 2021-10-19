@@ -65,6 +65,6 @@ class __TwigTemplate_6d7c5b6ac1c62ca2b0343ed6b4a98d62fc71345406ba35b73d5078977c6
     {
         return new Source("id=\"<?php echo \$view->escape(\$id) ?>\" name=\"<?php echo \$view->escape(\$full_name) ?>\"<?php if (\$disabled): ?> disabled=\"disabled\"<?php endif ?>
 <?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>
-", "@Framework/Form/button_attributes.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/button_attributes.html.php");
+", "@Framework/Form/button_attributes.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/button_attributes.html.php");
     }
 }

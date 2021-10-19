@@ -73,6 +73,6 @@ class __TwigTemplate_e13ac485466f93a2a51c38b9e7a902bf6a44f9b1afc7b20bda5c80c4d66
     <?php \$help = false === \$help_html ? \$view->escape(\$help) : \$help ?>
     <p id=\"<?php echo \$view->escape(\$id); ?>_help\" <?php echo ' '.\$view['form']->block(\$form, 'attributes', ['attr' => \$help_attr]); ?>><?php echo \$help; ?></p>
 <?php endif; ?>
-", "@Framework/Form/form_help.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/form_help.html.php");
+", "@Framework/Form/form_help.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/form_help.html.php");
     }
 }

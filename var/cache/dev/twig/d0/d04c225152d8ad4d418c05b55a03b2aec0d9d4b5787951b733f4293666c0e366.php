@@ -135,6 +135,6 @@ class __TwigTemplate_f393dc5d91387ded15974a086fe66d9528e5d8a3da8c519173a06b38b9a
         </div>
     </body>
 </html>
-", "@Twig/Exception/error.html.twig", "/Users/angendri/Sites/Flackbook/vendor/symfony/twig-bundle/Resources/views/Exception/error.html.twig");
+", "@Twig/Exception/error.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/twig-bundle/Resources/views/Exception/error.html.twig");
     }
 }

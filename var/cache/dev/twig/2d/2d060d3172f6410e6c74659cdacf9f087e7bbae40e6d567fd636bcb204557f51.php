@@ -59,6 +59,6 @@ class __TwigTemplate_6930edf93f088941c9430277409b238a4e130b9cb783de0f2b9b177726c
 
     public function getSourceContext()
     {
-        return new Source("", "@Framework/Form/button_label.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/button_label.html.php");
+        return new Source("", "@Framework/Form/button_label.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/button_label.html.php");
     }
 }

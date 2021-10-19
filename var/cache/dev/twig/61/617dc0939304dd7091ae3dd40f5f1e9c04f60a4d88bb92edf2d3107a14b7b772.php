@@ -69,6 +69,6 @@ class __TwigTemplate_5ae5c39d58745b7205f5d8b80a98b9e8bed942b8aeec6ae5542ef060f45
     ? strtr(\$label_format, ['%name%' => \$name, '%id%' => \$id])
     : \$view['form']->humanize(\$name); } ?>
 <button type=\"<?php echo isset(\$type) ? \$view->escape(\$type) : 'button' ?>\" <?php echo \$view['form']->block(\$form, 'button_attributes') ?>><?php echo \$view->escape(false !== \$translation_domain ? \$view['translator']->trans(\$label, \$label_translation_parameters, \$translation_domain) : \$label) ?></button>
-", "@Framework/Form/button_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/button_widget.html.php");
+", "@Framework/Form/button_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/button_widget.html.php");
     }
 }

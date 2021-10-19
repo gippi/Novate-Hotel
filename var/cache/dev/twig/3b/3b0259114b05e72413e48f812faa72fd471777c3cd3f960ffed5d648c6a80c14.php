@@ -270,6 +270,6 @@ class __TwigTemplate_c6752a65eaf23afa2ce71061cb63bd588b709f1fa6951cd2b5d2e95fff5
     </div>
 {%- endblock -%}
 
-", "@VichUploader/Form/fields.html.twig", "/Users/angendri/Sites/Flackbook/vendor/vich/uploader-bundle/templates/Form/fields.html.twig");
+", "@VichUploader/Form/fields.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/vich/uploader-bundle/templates/Form/fields.html.twig");
     }
 }

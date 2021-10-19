@@ -63,6 +63,6 @@ class __TwigTemplate_25e4865faaac38c2cf8ee6ea316bf6d0a00227d09a36b8aa390c3f33358
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'widget_container_attributes') ?>
-", "@Framework/Form/container_attributes.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/container_attributes.html.php");
+", "@Framework/Form/container_attributes.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/container_attributes.html.php");
     }
 }

@@ -291,6 +291,6 @@ class __TwigTemplate_639e8042b96310588a6c5a8923fa2bbaeff8434b818dc845258f08fc8f8
         </tbody>
     </table>
 {% endblock %}
-", "@VichUploader/Collector/mapping_collector.html.twig", "/Users/angendri/Sites/Flackbook/vendor/vich/uploader-bundle/templates/Collector/mapping_collector.html.twig");
+", "@VichUploader/Collector/mapping_collector.html.twig", "/Users/angendri/Sites/Novate-Hotel/vendor/vich/uploader-bundle/templates/Collector/mapping_collector.html.twig");
     }
 }

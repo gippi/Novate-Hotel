@@ -10,12 +10,5 @@ class CoreController extends AbstractController
 {
     
     
-    public function index()
-    {
-        return $this->render('admin/index.html.twig');
-    }
-    public function indexNovate(){
-        
-        return $this->render('front/index.html.twig');
-    }
+    
 }

@@ -63,6 +63,6 @@ class __TwigTemplate_a3d132d59be8c9a155b6ae5be494dbea6a79c61890d33a29ebdb426895d
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->formEncodeCurrency(\$money_pattern, \$view['form']->block(\$form, 'form_widget_simple')) ?>
-", "@Framework/Form/money_widget.html.php", "/Users/angendri/Sites/Flackbook/vendor/symfony/framework-bundle/Resources/views/Form/money_widget.html.php");
+", "@Framework/Form/money_widget.html.php", "/Users/angendri/Sites/Novate-Hotel/vendor/symfony/framework-bundle/Resources/views/Form/money_widget.html.php");
     }
 }

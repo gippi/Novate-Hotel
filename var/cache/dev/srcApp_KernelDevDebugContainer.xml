@@ -421,9 +421,6 @@
         <argument type="service" id=".service_locator.vdmMuyE.App\Controller\ActualiteController"/>
       </call>
     </service>
-    <service id="App\Controller\ApiController" class="App\Controller\ApiController" public="true" autowire="true" autoconfigure="true">
-      <tag name="controller.service_arguments"/>
-    </service>
     <service id="App\Controller\CoreController" class="App\Controller\CoreController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
@@ -5053,7 +5050,7 @@
       <tag name="console.command" command="server:run"/>
       <argument>/Users/angendri/Sites/Novate-Hotel/public</argument>
       <argument>dev</argument>
-      <argument>/Users/angendri/Sites/Novate-Hotel</argument>
+      <argument>/Users/angendri/Sites/Novate-Hotel/var/cache</argument>
       <call method="setName">
         <argument>server:run</argument>
       </call>
@@ -5062,21 +5059,21 @@
       <tag name="console.command" command="server:start"/>
       <argument>/Users/angendri/Sites/Novate-Hotel/public</argument>
       <argument>dev</argument>
-      <argument>/Users/angendri/Sites/Novate-Hotel</argument>
+      <argument>/Users/angendri/Sites/Novate-Hotel/var/cache</argument>
       <call method="setName">
         <argument>server:start</argument>
       </call>
     </service>
     <service id="web_server.command.server_stop" class="Symfony\Bundle\WebServerBundle\Command\ServerStopCommand" public="false">
       <tag name="console.command" command="server:stop"/>
-      <argument>/Users/angendri/Sites/Novate-Hotel</argument>
+      <argument>/Users/angendri/Sites/Novate-Hotel/var/cache</argument>
       <call method="setName">
         <argument>server:stop</argument>
       </call>
     </service>
     <service id="web_server.command.server_status" class="Symfony\Bundle\WebServerBundle\Command\ServerStatusCommand" public="false">
       <tag name="console.command" command="server:status"/>
-      <argument>/Users/angendri/Sites/Novate-Hotel</argument>
+      <argument>/Users/angendri/Sites/Novate-Hotel/var/cache</argument>
       <call method="setName">
         <argument>server:status</argument>
       </call>
@@ -6074,8 +6071,6 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\ActualiteController" class="App\Controller\ActualiteController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\ActualiteController" class="App\Controller\ActualiteController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ActualiteController" class="App\Controller\ActualiteController" autowire="true" autoconfigure="true" abstract="true"/>
-    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ApiController" class="App\Controller\ApiController" autowire="true" abstract="true"/>
-    <service id=".abstract.instanceof.App\Controller\ApiController" class="App\Controller\ApiController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\CoreController" class="App\Controller\CoreController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\CoreController" class="App\Controller\CoreController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\CoreController" class="App\Controller\CoreController" autowire="true" autoconfigure="true" abstract="true"/>

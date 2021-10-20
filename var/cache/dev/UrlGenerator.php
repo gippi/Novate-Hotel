@@ -17,8 +17,6 @@ return [
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     'admin' => [[], ['_controller' => 'App\\Controller\\ActualiteController::indexs'], [], [['text', '/admin']], [], []],
     'modif_actualite' => [['id'], ['_controller' => 'App\\Controller\\ActualiteController::modifActualite'], [], [['variable', '/', '[^/]++', 'id'], ['text', '/actualite/modifier']], [], []],
-    'ajout' => [[], ['_controller' => 'App\\Controller\\ApiController::addActualite'], [], [['text', '/actualite/ajout']], [], []],
-    'actualite_create' => [[], ['_controller' => 'App\\Controller\\ApiController::createAction'], [], [['text', '/actualites']], [], []],
     'front_page' => [[], ['_controller' => 'App\\Controller\\FrontController::index'], [], [['text', '/']], [], []],
     'front_actualite_chambre' => [[], ['_controller' => 'App\\Controller\\FrontController::voirChambre'], [], [['text', '/chambres']], [], []],
     'admin_actualite_new' => [[], ['_controller' => 'App\\Controller\\ActualiteController::newActualite'], [], [['text', '/new']], [], []],

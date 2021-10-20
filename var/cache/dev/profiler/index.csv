@@ -627,3 +627,7 @@ bcb712,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/images/favic
 4f8121,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/,1634697320,,200
 44c308,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/images/favicon.ico,1634697320,d0318d,404
 d0318d,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/images/favicon.ico,1634697320,,404
+0cf560,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/chambres,1634697434,,200
+6a8e95,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/chambres,1634697591,,200
+3913fc,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/images/favicon.ico,1634697592,b52348,404
+b52348,127.0.0.1,GET,http://localhost/Novate-Hotel/public/index.php/images/favicon.ico,1634697592,,404

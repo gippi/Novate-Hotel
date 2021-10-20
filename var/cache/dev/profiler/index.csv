@@ -1,3 +1,6 @@
 18a26f,::1,GET,http://localhost/Novate-Hotel/public/index.php/,1634698767,,200
 564b27,::1,GET,http://localhost/Novate-Hotel/public/index.php/chambres,1634698771,,200
 664820,::1,GET,http://localhost/Novate-Hotel/public/index.php/,1634698775,,200
+a6aa2d,::1,GET,http://localhost/Novate-Hotel/public/index.php/images/favicon.ico,1634698862,98ce00,404
+98ce00,::1,GET,http://localhost/Novate-Hotel/public/index.php/images/favicon.ico,1634698862,,404
+656e9f,::1,GET,http://localhost/Novate-Hotel/public/index.php/chambres,1634698970,,200

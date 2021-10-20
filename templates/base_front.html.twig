@@ -35,6 +35,18 @@
       
 
   </div>
+  {% block javascripts %}
+    <!-- jQuery -->
+    <script src="{{ asset('web/js/jquery.min.js') }}"></script>
+    <!-- Bootstrap -->
+    <script src="{{ asset('web/js/bootstrap.bundle.min.js') }}"></script>
+    <script>
+        $(function () {
+            $(document).ready(function(){
+    ('.carousel').carousel()
+            }
+        })
+{% endblock %}
    </body>
 </html>
   
